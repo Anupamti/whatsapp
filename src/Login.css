@@ -1,0 +1,33 @@
+.Login {
+  background-image: url("https://thumbs.gfycat.com/IdealCookedHaddock-size_restricted.gif");
+  background-repeat: repeat;
+  background-position: center;
+  background-size: 70%;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.Login_container {
+  color: white;
+  place-items: center;
+  margin-left: 40px;
+  padding: 80px;
+  display: flex;
+  background-color: #051431;
+  height: 100px;
+  width: 150px;
+  box-shadow: 0 1px 3px rgb(250, 246, 246);
+  border-radius: 100px;
+  text-align: center;
+}
+.login_text > button {
+  text-transform: inherit !important;
+  background-color: rgb(51, 58, 51) !important;
+  color: white;
+}
+.login_text > button :hover {
+  background-color: #092c74 !important;
+  color: white;
+  transition-duration: 0.1s;
+}
